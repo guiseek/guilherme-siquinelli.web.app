@@ -7,21 +7,6 @@ const routes: Routes = [
     path: 'customers',
     component: AppComponent,
     data: { text: 'Customers' }
-  },
-  {
-    path: 'customers/:id',
-    component: AppComponent,
-    data: { text: 'Customer' }
-  },
-  {
-    path: 'kanban',
-    component: AppComponent,
-    data: { text: 'kanban' }
-  },
-  {
-    path: 'login',
-    component: AppComponent,
-    data: { text: 'login' }
   }
 ];
 
